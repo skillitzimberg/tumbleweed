@@ -1,0 +1,98 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Noto Serif JP', sans-serif;
+  color: #fff;
+}
+
+header {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(12, 8.333%);
+  background-size: cover;
+}
+
+.logo {
+  font-size: 4vw;
+  margin: 1em;
+}
+
+nav {
+  width: 100%;
+  margin: 2em 0 0 0;
+  grid-column: 3 / 12;
+}
+
+ul {
+  float: right;
+  display: inline;
+}
+
+li {
+  margin: 1em;
+  display: inline ;
+  list-style: none;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.button {
+  display: inline-block;
+  grid-column: 1 / 8;
+  border: 3px solid #fff;
+  margin-top: 1em;
+  padding: 1em;
+  border-radius: 5px;
+  font-size: 2vw;
+}
+
+article {
+  width: 85%;
+  margin: auto;
+  padding-bottom: 2em;
+  color: #000;
+  text-align: justify;
+}
+
+.articleInHeader {
+  grid-column: 1 / 13;
+  color: #fff;
+  text-align: justify;
+  font-weight: 800;
+}
+
+.index {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url("https://images.unsplash.com/photo-1515823808611-65fd8e56c71a?ixlib=rb-0.3.5&s=b527148a116687205b49734c03bb3e33&auto=format&fit=crop&w=500&q=60");
+}
+
+.grain {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), url("https://images.unsplash.com/photo-1516041774595-cc1b7969480c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1401580ca8df826efc7b58ed914cd694&auto=format&fit=crop&w=500&q=60");
+}
+
+.markets {
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)), url("https://images.unsplash.com/photo-1458712197423-adcdc2a426ee?ixlib=rb-0.3.5&s=8099bc757033c9546ab65ffcff2af118&auto=format&fit=crop&w=500&q=60");
+}
+
+.contact {
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)), url("https://images.unsplash.com/photo-1517686469429-8bdb88b9f907?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1fbf80910cefb7361c4ddeb28a3493a2&auto=format&fit=crop&w=500&q=60");
+}
+
+form {
+  grid-column: 2 / 7;
+  /* padding-left: 1em; */
+}
+
+label {
+  display: block;
+}
